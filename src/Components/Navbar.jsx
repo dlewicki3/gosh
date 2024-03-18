@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { BiMenuAltRight } from "react-icons/bi";
+import { BiMenuAltRight, BiX } from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
         <button className='menu' onClick={toggleMenu}>
-          <BiMenuAltRight />
+          {isOpen ? <BiX /> : <BiMenuAltRight />}
         </button>
       </div>
       <AnimatePresence>
