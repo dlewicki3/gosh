@@ -1,0 +1,131 @@
+nav
+{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+
+}
+.container
+{
+  max-width: 1200px;
+
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+backdrop-filter: blur(20px);
+z-index: 99;
+height: 100%;
+}
+.logo
+{
+    width: 200px;
+    font-size: 19px;
+    color: #687786;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+nav ul li
+{
+    list-style: none;
+display: inline-block;
+
+    padding: 15px;
+    color: #687786;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+font-size: 14px;
+}
+.menu
+{
+    display: none;
+}
+.ul-items
+{
+   display: none;
+}
+.links
+{
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    nav
+    {
+        height: 8dvh;    
+    }
+    .container
+    {
+        width: 90%;
+        height: 100%;
+    }
+   nav ul
+    {
+   
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      height: 300px;
+     top: 10%;
+  display: none;
+    }
+    li
+{
+    font-size: 20px;
+}
+    .menu{
+        display: block;
+        font-size: 33px;
+        color: #687786;
+      border: none;
+      background-color: transparent;    
+    }
+.container
+{
+    height: 90%;
+}
+.first-ul
+{
+    display: none;
+}
+.ul-items
+{
+    background-color: #eeeeee;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   height: 60%;
+   border-radius: 30px;
+   top: 10%;
+   width: 90%;
+z-index: -1;
+box-shadow:0 0 40px -10px rgba(0,0,0,.3), 0 0 25px -15px rgba(0,0,0,.2);
+
+}
+.links
+{
+    padding: 15px;
+    color: #687786;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+font-size: 15px;
+display: flex;
+
+}
+}
+@media only screen and (max-width: 550px) {
+    .ul-items
+    {
+        height: 50%;
+    }
+}
