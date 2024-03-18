@@ -1,10 +1,142 @@
 .o1
 {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: #eeeeee;
+display: flex;
+
+}
+.k1
+{
+    width: 100%;
+    max-width: 1100px;
+z-index: 98;
+height: 70dvh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left1
+{
+    width: 50%;
+    height: 70%;
+display: flex;
+justify-content: center;
+
+}
+.right1
+{
+    width: 50%;
+    height: 100%;
+    background-color: #c5c5c5;
+    background-image: url(I1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
     
 }
-@media (max-width:1000px){
-    
+.span-class
+{
+    color: rgba(0, 0, 0, .3);
 }
+.absolut
+{
+    width: 45%;
+    height: 90%;
+    position: absolute;
+background-color: #dfdfdf;
+    z-index: 10;
+    border-top-left-radius: 10px;
+    right: 0;
+    top: 10%;
+}
+.big-txt1
+{
+    font-size: 90px;
+line-height: 0.95;
+font-weight: 600;
+letter-spacing: -3px;
+z-index: 98;
+}
+.btn1
+{
+    width: 230px;
+    height: 60px;
+    background-color: #c5c5c5;
+    border: none;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 1100px) {
+.k1
+{
+width: 90%;
+
+}
+.big-txt1
+{
+    font-size: 80px;
+}
+.left1
+{
+    width: 60%;
+}
+.right1
+{
+    width: 40%;
+}
+}
+@media only screen and (max-width: 900px) {
+    .big-txt1
+    {
+        font-size: 60px;
+    }
+.left1
+{
+    width: 50%;
+}
+.right1
+{
+    width: 50%;
+}
+}
+@media only screen and (max-width: 724px) {
+.right1
+{
+    display: none;
+}
+.left1
+{
+    width: 100%;
+    position: relative;
+}
+.btn1
+{
+position: absolute;
+    right: 0;
+}
+}
+@media (min-height:400px) and (max-height: 800px) {
+    .o1 {
+      min-height: 100vh;
+
+    }
+    .k1
+    {
+        height: 60dvh;
+    }
+    .absolut
+    {
+        width: 70%;
+    }
+  }
