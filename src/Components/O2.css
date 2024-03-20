@@ -114,7 +114,6 @@ margin-top: 20px;
 .k2{
 
 height: 95dvh;
- 
 }
 .icon2{
     width: 80%;
@@ -156,7 +155,7 @@ height: 95dvh;
 }
 .k2
 {
-    height: 120dvh;
+    height: 115dvh;
 }
 .icon2
 {
@@ -166,12 +165,27 @@ height: 95dvh;
 .middle-txt2
 {
     font-size: 35px;
-    text-align: center;
     line-height: 1;
 }
 .big-txt2
 {
     font-size: 25px;
    line-height: 2;
+}
+.top
+{
+    align-items: flex-start;
+}
+.small-txt2
+{
+    text-align: left;
+}
+.thick-bottom-txt2
+{
+    text-align: left;
+}
+.bottom
+{
+    align-items: flex-start;
 }
 }
