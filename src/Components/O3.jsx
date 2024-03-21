@@ -6,7 +6,7 @@ import "./O3.css";
 
 const O3 = () => {
   const { scrollYProgress } = useViewportScroll();
-  const y = useTransform(scrollYProgress, [0, 1], ['150%', '0%']);
+  const y = useTransform(scrollYProgress, [0, 1], ['100%', '-50%']);
 
   return (
 

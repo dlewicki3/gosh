@@ -8,7 +8,7 @@ const O4 = () => {
   return (
     <div className="o4">
         <div className="k4">
-            <p className='big-txt4'>For whom is UI/UX design?</p>
+            <p className='big-txt4'>For who is UI/UX design?</p>
 <div className="na-kwa4">
     <div className="kwa4">
         <div className="na-icon">

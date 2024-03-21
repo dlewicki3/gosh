@@ -1,0 +1,275 @@
+.o5
+{
+    width: 100%;
+    min-height: 300dvh;
+    background-color: #eeeeee;
+
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+.k5
+{
+    width: 100%;
+    max-width: 1100px;
+    height: 250dvh;
+   
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.big-txt5
+{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+.left5
+{
+    width: 37%;
+    height: 100%;
+  
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.right5
+{
+    width: 61%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.pineska {
+  width: 100%;
+    height: 200px;
+
+    position: sticky;
+    top: 40%; 
+    font-size: 200px;
+    color: #687786;
+    letter-spacing: -10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.top5,
+.middle5,
+.bottom5
+{
+    height: 33%;
+    width: 100%;
+border-right: 2px solid black;
+
+justify-content: flex-end;
+display: flex;
+
+}
+.top55,
+.middle55,
+.bottom55
+{
+    height: 33%;
+    width: 100%;
+ padding-right: 120px;
+ border-bottom: 2px solid black;
+justify-content: center;
+display: flex;
+align-items:flex-start;
+flex-direction: column;
+}
+.big55-txt
+{
+    font-size: 50px;
+ letter-spacing: -2px;
+    font-weight: 600;
+}
+.small-txt5
+{
+    font-size: 17px;
+    font-weight: 600;
+    color: #687786;
+letter-spacing: -1px;
+    margin-top: 20px;
+}
+.btn5
+{
+    width: 190px;
+    height: 55px;
+    background-color: #c5c5c5;
+    color: black;
+    border: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.show-after5
+{
+    display: none;
+}
+
+    @media only screen and (max-width: 1100px) {
+.k5
+{
+    width: 90%;
+}
+
+
+
+
+    }
+    @media only screen and (max-width: 764px) {
+        .top55,
+        .middle55,
+        .bottom55
+        {
+            padding: 0px;
+        }
+        .big55-txt
+        {
+            font-size: 35px;
+       
+        }
+        .small-txt5
+        {
+            font-size: 15px;
+        
+        }
+        .pineska 
+        {
+font-size: 130px;
+        }
+.big-txt5
+{
+    font-size: 60px;
+}
+    }
+    @media (min-height:400px) and (max-height: 800px) {
+        .o5
+        {
+           height: 400dvh;
+        }
+           .k5
+           {
+              height:320dvh;
+    
+           }
+           .pineska
+           {
+            font-size: 160px;
+           }
+           
+           
+           
+           }
+    @media only screen and (max-width: 540px) {
+        .o5
+        {
+            height: 190dvh;
+        }
+        .k5
+        {
+            height: 170dvh;
+        }
+.left5
+{
+
+    width: 100%;
+    display: none;
+  
+}
+.right5
+{
+ 
+    width: 100%;
+}
+.show-after5
+{
+    display: block;
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #687786;
+    font-weight: 600;
+}
+.k5
+{
+height: 220dvh;
+
+    flex-direction: column;
+}
+.top55,
+.middle55,
+.bottom55
+{
+  
+    height: 30%;
+    border-radius: 20px;
+    box-shadow:0 0 40px -10px rgba(0,0,0,.3),
+    0 0 25px -15px rgba(0,0,0,.2);
+    border:none;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding-left: 10px;
+}
+.btn5
+{
+    margin-top: 30px;
+    width: 150px;
+}
+.big-txt5
+{
+    font-size: 50px;
+}
+.big55-txt
+{
+    font-size: 30px;
+}
+.small-txt5
+{
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+
+    }
+    @media only screen and (max-width: 450px) {
+        .big-txt5
+        {
+            font-size: 40px;
+        }
+        .big55-txt
+        {
+            font-size: 27px;
+        }
+        .small-txt5
+        {
+            font-size: 15px;
+            letter-spacing: 0px;
+        }
+
+
+
+    }
