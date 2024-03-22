@@ -1,0 +1,156 @@
+.o6
+{
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #171a21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.k6
+{
+    width: 100%;
+    max-width: 1000px;
+
+    height: 70dvh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.big-txt6
+{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.submit-div
+{
+    width: 49%;
+    height: 20dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.btn6
+{
+    width: 39%;
+    height: 60px;
+background-color: #c5c5c5;
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.na-txt6
+{
+    width: 50%;
+    height: 30dvh;
+background-color: #eeeeee;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    color: #687786;
+}
+.input-edit
+{
+    width:59%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #687786;
+    padding-left: 10px;
+}
+.kolko
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  top: -10%;
+    position: absolute;
+background-image: url(Face1.webp);
+background-position: center;
+background-size: cover;
+}
+@media (min-height:400px) and (max-height: 800px) {
+.o6
+{
+    height: 120dvh;
+}
+.k6
+{
+ height:100dvh;   
+}
+.kolko
+{
+    top: -20%;
+}
+}
+@media only screen and (max-width: 1100px) {
+.na-txt6
+{
+    font-size: 14px;
+}
+.k6
+{
+    width: 90%;
+}
+.na-txt6
+{
+    width: 70%;
+    height: 40dvh;
+}
+.submit-div
+{
+width: 70%;
+}
+}
+@media only screen and (max-width: 810px) {
+
+.big-txt6
+{
+font-size: 37px;
+}
+.na-txt6
+{
+    width: 70%;
+    height: 40dvh;
+}
+.submit-div
+{
+width: 70%;
+}
+}
+@media only screen and (max-width: 530px) {
+    .na-txt6
+    {
+        width: 100%;
+    }
+    .submit-div
+    {
+    width: 100%;
+    }
+    .o6
+{
+    height:120dvh;
+}
+.k6
+{
+    height: 110dvh;
+}
+}
